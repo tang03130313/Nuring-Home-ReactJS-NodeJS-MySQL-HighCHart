@@ -1,0 +1,107 @@
+img{
+    width:100%;
+}
+div{
+    border: 0.1px black solid;
+    font-size:2.4vw;
+    text-align:center;
+}
+
+
+.logo{
+    position: absolute;
+    left:0%;
+    top:0%;
+    width:8.3vw;
+    height:7.5vw;
+}
+.navigator{
+    background-color: #2F3E43;
+    position: absolute;
+    left:0vw;
+    top:7.5vw;
+    height:500vh;
+    width:8.3vw;
+}
+.navigator div{
+    height:8.3vw;
+}
+.title{
+    background-color: #1F6177;
+    color:#FFFFFF;
+    position:absolute;
+    left:8.3vw;
+    top:0vw;
+    width:91.7vw;
+    height:7.5vw;
+}
+.logout{
+    position:absolute;
+    margin-left:80vw;
+    width:10vw;
+    height:100%;
+    top:0vw;
+}
+.mainPanel{
+    position: absolute;
+    background-color: #2F3E43;
+    left:8.3vw;
+    top:7.5vw;
+    width:91.7vw;
+    height:500vh;
+}
+.sort{
+    width:11vw;
+    height:5vw;
+    margin-left:62vw;
+    margin-top:2vw;
+    border-radius: 2vw;
+    background-color: #BBDCD8;
+}
+.search{
+    width:11vw;
+    height:5vw;
+    margin-left:75vw;
+    margin-top:-5vw;
+    border-radius: 2vw;
+    background-color: #BBDCD8;
+}
+.iconInfo{
+    width:8.3vw;
+    height:26.8vw;
+    position:absolute;
+    left:82vw;
+    top:10vw;
+}
+.guys{
+    margin-top:2vw;
+    width:79vw;
+    height:150vw;
+    display: grid;
+    grid-gap: 3vw 1vw;
+    grid-template-columns: 19vw 19vw 19vw 19vw;
+    padding: 1vw;
+}
+.oneGuy{
+    background-color: #FFFFFF;
+    border-radius: 1.5vw;
+}
+.oneGuy .photo{
+    width:12vw;
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-top:0.5vw;
+    height:14vw;
+}
+.photo img{
+    width:99%;
+    height:99%;
+}
+
+.oneGuy .name{
+    height:2.5vw;
+    margin-top: 1vw;
+}
+.oneGuy .condition{
+    width:20vw;
+}
